@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    height: 40px;
+    width: 1440px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+.legant{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    position: absolute;
+    left: 6.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headbar{
+    gap: 2rem;
+    background-color: #F3F5F7;
+}
+
+.list{
+    list-style: none;
+    gap: 1.5rem;
+}
+.list-4{
+    list-style: none;
+    gap: 1rem;
+}
+.headbar a{
+    color: #377DFF;
+}
+
+.belowhead{
+    
+    width:100vw;
+    height: 4rem;
+}
+.image1{
+    width: 100vw;
+    height: 85vh;
+    flex-direction: column;
+}
+
+.image1 img{
+   width: 76%;
+   height: 85%;
+   object-fit: fill;
+}
+
+.text{
+    background-color: blueviolet;
+    width: 76vw;
+    height: 9rem;
+}
+   
+.bigtext{
+    width: 50%;
+    height: 100%;
+    font-size: 3rem;
+}
+
+.smalltext{
+    width: 50%;
+    height: 100%;
+}
